@@ -62,5 +62,7 @@ The following patterns are not warnings:
 Note that you'll want to disable the rule in your CustomLink/UpdateLink definition:
 
 ```js
-/* eslint-disable consistent-return */
+/* eslint-disable no-link-component/no-link-component */
+or
+// eslint-disable-line no-link-component/no-link-component
 ```
